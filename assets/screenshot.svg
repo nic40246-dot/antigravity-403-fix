@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <filter id="win-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1000" height="620" fill="#080b11" />
+
+  <!-- Window Container -->
+  <g transform="translate(40, 30)" filter="url(#win-shadow)">
+    <!-- Terminal Outer Frame -->
+    <rect width="920" height="550" rx="12" fill="url(#term-bg)" stroke="#30363d" stroke-width="1.5" />
+    
+    <!-- Titlebar -->
+    <rect width="920" height="42" rx="12" fill="#161b22" />
+    <rect y="30" width="920" height="12" fill="#161b22" />
+    <line x1="0" y1="42" x2="920" y2="42" stroke="#30363d" stroke-width="1" />
+
+    <!-- Window Control Buttons -->
+    <circle cx="25" cy="21" r="6" fill="#ff5f56" />
+    <circle cx="45" cy="21" r="6" fill="#ffbd2e" />
+    <circle cx="65" cy="21" r="6" fill="#27c93f" />
+
+    <!-- Title text -->
+    <text x="460" y="26" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="13" font-weight="600" text-anchor="middle">Terminal — python antigravity_fix.py</text>
+
+    <!-- Terminal Content Area -->
+    <g transform="translate(30, 75)" font-family="'Cascadia Code', 'Fira Code', 'Courier New', monospace" font-size="13" line-height="1.5">
+      <!-- Command line input -->
+      <text x="0" y="0">
+        <tspan fill="#58a6ff">user@terminal</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#7ee787">~/workspace</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#f0883e">python</tspan><tspan fill="#c9d1d9"> antigravity_fix.py</tspan>
+      </text>
+
+      <!-- Banner output -->
+      <text x="0" y="32" fill="#58a6ff" font-weight="bold">==================================================</text>
+      <text x="0" y="52" fill="#58a6ff" font-weight="bold">   Antigravity 403 / 503 Validation Fixer v1.0.0  </text>
+      <text x="0" y="72" fill="#8b949e">   Cross-platform Google Human Verification Unblocker</text>
+      <text x="0" y="92" fill="#58a6ff" font-weight="bold">==================================================</text>
+
+      <!-- Detection message -->
+      <text x="0" y="130" fill="#7ee787" font-weight="bold">[!] VALIDATION_REQUIRED link detected!</text>
+      <text x="0" y="152">
+        <tspan fill="#8b949e">Source: </tspan>
+        <tspan fill="#c9d1d9">~/.hermes/logs/errors.log (2026-10-08 22:47:10)</tspan>
+      </text>
+
+      <!-- Error badge box -->
+      <g transform="translate(0, 175)">
+        <rect width="860" height="70" rx="8" fill="#1c1917" stroke="#dc2626" stroke-width="1"/>
+        <text x="15" y="25" fill="#f87171" font-weight="bold">HTTP 503 [403]: PERMISSION_DENIED</text>
+        <text x="15" y="45" fill="#fca5a5" font-size="12">"reason": "VALIDATION_REQUIRED", "domain": "cloudcode-pa.googleapis.com"</text>
+      </g>
+
+      <!-- Google URL Box -->
+      <text x="0" y="278" fill="#e6edf3" font-weight="bold">Google Verification URL:</text>
+      
+      <g transform="translate(0, 290)">
+        <rect width="860" height="52" rx="8" fill="#0d2d3a" stroke="#38bdf8" stroke-width="1"/>
+        <text x="15" y="30" fill="#7dd3fc" font-size="12">https://accounts.google.com/signin/continue?sarp=1&amp;scc=1&amp;continue=https://developers.google.com/...</text>
+      </g>
+
+      <!-- Status output -->
+      <text x="0" y="375" fill="#e3b341">[*] Opening verification URL in your default browser...</text>
+      <text x="0" y="402" fill="#7ee787" font-weight="bold">[✓] Browser opened. Complete captcha/sign-in, then retry your task.</text>
+      <text x="0" y="426" fill="#8b949e">    Session unblocked in &lt; 3 seconds without losing configurations.</text>
+
+      <!-- Prompt back -->
+      <text x="0" y="458">
+        <tspan fill="#58a6ff">user@terminal</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#7ee787">~/workspace</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#7ee787">█</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
