@@ -11,6 +11,10 @@
 
 ![Antigravity Fixer Banner](assets/banner.png)
 
+> 🚨 **Special Guide / Troubleshooting Post:**  
+> **[Fix: Google One 5TB / AI Pro Ineligible Quota (#3501 SUBSCRIPTION_REQUIRED) & Age Verification Bypass](docs/GOOGLE_ONE_AI_PRO_AGE_VERIFICATION.md)**  
+> [🇮🇷 راهنمای تخصصی رفع خطای عدم شناسایی اشتراک ۵ ترابایت و احراز سن](docs/GOOGLE_ONE_AI_PRO_AGE_VERIFICATION_FA.md)
+
 An automated utility to resolve **HTTP 503 [403]: `PERMISSION_DENIED (VALIDATION_REQUIRED)`** and **License Error `#3501`** across **Google Antigravity CLI**, **Antigravity IDE**, **Gemini Code Assist**, and **Hermes Agent**.
 
 ---

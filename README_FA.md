@@ -10,6 +10,10 @@
 
 ![بنر ابزار آنتی‌گرویتی](assets/banner.png)
 
+> 🚨 **راهنما و پست آموزشی جدید:**  
+> **[آموزش رفع خطای عدم شناسایی اشتراک ۵ ترابایت Google One AI Pro و احراز هویت سن](docs/GOOGLE_ONE_AI_PRO_AGE_VERIFICATION_FA.md)**  
+> [🌐 English Guide: Google One 5TB / AI Pro Ineligible Quota & Age Verification Fix](docs/GOOGLE_ONE_AI_PRO_AGE_VERIFICATION.md)
+
 ابزار چندسکویی و اسکریپت خودکار برای حل ارورهای متداول **`HTTP 503 [403]: PERMISSION_DENIED (VALIDATION_REQUIRED)`** و **`License Error #3501`** در ابزارهای Google Antigravity، Gemini Code Assist، Hermes Agent و رله‌های مدل‌های هوش مصنوعی (نظیر 9Router).
 
 ---
